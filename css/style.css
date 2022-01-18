@@ -665,6 +665,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 3rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .font-sans{
   font-family: Inter, Arial, Helvetica, sans-serif;
 }
@@ -691,6 +695,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-white{
@@ -741,6 +750,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:bg-sunny\/90:hover{
   background-color: rgb(251 232 80 / 0.9);
+}
+
+.hover\:bg-rosey:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 60 114 / var(--tw-bg-opacity));
 }
 
 .hover\:underline:hover{
