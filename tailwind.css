@@ -28,4 +28,8 @@
   .navbar button {
     margin-inline: auto;
   }
+
+  #nav-toggle {
+    background-image: url('./Assets/menu.svg');
+  }
 }

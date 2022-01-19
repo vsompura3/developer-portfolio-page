@@ -1,18 +1,18 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.15"
-  },
   "name": "developer-portfolio-starter-files",
   "description": "Codewell's aim is to provide you with real-world design templates that you can use to practice your HTML and CSS projects.",
   "version": "1.0.0",
   "main": "postcss.config.js",
   "scripts": {
     "dev": "vite",
-    "build": "npx tailwindcss -i tailwind.css -o ./css/style.css --watch"
+    "build": "npx tailwindcss -i tailwind.css -o ./css/style.css"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vaibhav Sompura",
   "license": "ISC"
 }
