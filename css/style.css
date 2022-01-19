@@ -742,10 +742,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .navbar button {
     margin-inline: auto;
   }
+}
 
-  #nav-toggle {
-    background-image: url('./Assets/menu.svg');
-  }
+#nav-toggle {
+  background-image: url('./Assets/menu.svg');
 }
 
 .hover\:bg-sunny\/90:hover{
