@@ -745,7 +745,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 #nav-toggle {
-  background-image: url('./Assets/menu.svg');
+  background-image: url('../Assets/menu.svg');
 }
 
 .hover\:bg-sunny\/90:hover{
